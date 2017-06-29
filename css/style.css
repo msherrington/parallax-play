@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ccc;
+  /*background: #ccc;*/
 }
 
 .nav ul {
@@ -10,6 +10,12 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
+
+  box-shadow: 0px 4px 6px #444;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 .nav li {
   font-family: 'Oswald', sans-serif;
@@ -46,13 +52,12 @@ body {
   }
 
   .nav li {
-      float: left;
-    }
-    .nav ul {
-      overflow: auto;
-      width: 600px;
-      margin: 0 auto;
-    }
-    .nav {
-      background-color: #444;
-    }
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+
+.beach {
+  width: 100%;
+  z-index: 2;
+}
