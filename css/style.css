@@ -4,6 +4,7 @@ body {
   /*background: #ccc;*/
 }
 
+
 .nav ul {
   list-style: none;
   background-color: #444;
@@ -15,7 +16,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-
+  z-index: 10;
 }
 .nav li {
   font-family: 'Oswald', sans-serif;
@@ -57,7 +58,21 @@ body {
   }
 
 
-.beach {
-  width: 100%;
-  z-index: 2;
+
+.banner {
+  background: center top transparent no-repeat url('../beach.jpg');
+  background-size: contain;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50em;
+}
+
+.page {
+  position: relative;
+  margin-top: 27em;
+  background-color: #d3d3d3;
+  padding: 0.5em 10% 0;
+  z-index: 3;
 }
