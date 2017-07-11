@@ -66,14 +66,18 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  height: 50em;
+  /*height: 50em;*/
+  height: 75em;
+  max-width: 110%;
   margin-top: 3em;
 }
 
 .page {
   position: relative;
-  margin-top: 27em;
-  background-color: #d3d3d3;
+  margin-top: 45em;
+  /*background-color: #d3d3d3;*/
+  background-color: rgba(0,0,0,0.5);
+  color: white;
   padding: 0.5em 10% 0;
   z-index: 3;
 }
